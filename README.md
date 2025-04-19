@@ -37,11 +37,11 @@ PRs welcome; got a cool micro-animation idea? Open an issue or reach out:
 
 ## ✨ Animations Included
 
-- ✅ Pulse Button  
 - ✅ Card Flip  
-- ✅ Bouncy Tab Bar Icon  
+- ✅ Bouncy Tab Bar Icon
+- ✅ Heart Beat
 - ✅ Loading Wave  
-- ✅ Heart Beat  
+- ✅ Pulse Button  
 
 More coming soon...
 
@@ -51,7 +51,69 @@ More coming soon...
 
 Each animation is a self-contained SwiftUI view — ready to drop into your own app or tweak for your needs.
 
+\
+Pulse Button
 ```swift
 PulseButton(action: {
     // Your tap action
 })
+```
+\
+Card Flip
+```swift
+CardFlip {
+    VStack {
+        Text("Front")
+             .font(.title)
+             .foregroundColor(.white)
+         }
+         .frame(maxWidth: .infinity, maxHeight: .infinity)
+         .background(Color.blue)
+    } back: {
+        VStack {
+            Text("Back")
+                .font(.title)
+                .foregroundColor(.white)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.green)
+    }
+```
+\
+Bouncy Tab Bar Button
+```swift
+   BouncyTabBarButton(
+        icon: "house.fill",
+        label: "Home",
+        isSelected: true
+    ) {
+        print("Home Tapped")
+    }
+```
+\
+Heartbeat
+```swift
+ heartbeatView {
+     Image(systemName: "heart.fill")
+        .font(.system(size: 64))
+        .foregroundColor(.pink)
+    }
+```
+
+\
+Loading Wave - Dot Bounce
+```swift
+DotBounceLoadingWave()
+```
+
+\
+Loading Wave - Vertical Bars
+```swift
+ BarSlideLoadingWave(barCount: 6, color: .orange)
+```
+
+\
+Loading Wave - Fade
+```swift
+ BarFadeLoadingWave(barCount: 4, size: 10, color: .purple, speed: 0.3)
+```
