@@ -53,7 +53,6 @@ They turn “this works” ✅ into “this feels amazing” 💥.
 
 ---
 
-This project is part of my **My Dev Diaries** journey — documenting, sharing, and shipping indie projects in public.  
 I also launched 👉 [100 iOS App Ideas with MVP Scopes](https://heeydurh.gumroad.com/l/hwfkko) — if you need a new project to build, start there.
 
 ---
