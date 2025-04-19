@@ -2,6 +2,39 @@
 
 A growing collection of fun, smooth, minimal **SwiftUI animations** — made for indie devs, side projects, and UI polish lovers.
 
+<h3>🚀 Animation Previews</h3>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Pulse Button</b></td>
+    <td align="center"><b>Card Flip</b></td>
+    <td align="center"><b>Bouncy Tab Bar</b></td>
+  </tr>
+  <tr>
+    <td><img src="Gifs/pulse button.gif" width="140" /></td>
+    <td><img src="Gifs/card flip.gif" width="140" /></td>
+    <td><img src="Gifs/Bouncy Tab Bar.gif" width="300" /></td>
+  </tr>
+</table>
+
+<br/>
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Loading Wave (Dot Bounce)</b></td>
+    <td align="center"><b>Loading Wave (Vertical Bars)</b></td>
+    <td align="center"><b>Loading Wave (Fade)</b></td>
+    <td align="center"><b>Heart Beat</b></td>
+  </tr>
+  <tr>
+    <td><img src="Gifs/Loading Wave (Dot Bounce).gif" width="140" /></td>
+    <td><img src="Gifs/Loading Wave (Vertical Bars).gif" width="140" /></td>
+    <td><img src="Gifs/Loading Wave (Fade).gif" width="140" /></td>
+    <td><img src="Gifs/heartbeat.gif" width="140" /></td>
+  </tr>
+</table>
+
+
 ---
 
 ## 🧠 Why?
